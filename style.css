@@ -79,15 +79,15 @@ main {
   background-color: var(--primary-color);
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .movie-info span.green {
-  color: lightgreen;
+  color: blue;
 }
 
 .movie-info span.orange {
-  color: orange;
+  color: red;
 }
 
 .movie-info span.red {
@@ -99,7 +99,7 @@ main {
   padding: 2rem;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 10px;
   right: 0;
   max-height: 100%;
   transform: translateY(101%);
